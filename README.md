@@ -2,16 +2,23 @@
 tools
 
 1. Найдите полный хеш и комментарий коммита, хеш которого начинается на aefea
+   
    user_y@Ubunta:~/Netology.Linux/terraform$ git show aefea
+
    aefead2207ef7e2aa5dc81a34aedf0cad4c32545 Update CHANGELOG.md
 
 3. Какому тегу соответствует коммит 85024d3?
+
    user_y@Ubunta:~/Netology.Linux/terraform$ git show 85024d3
+
    v0.12.23
 
 5. Сколько родителей у коммита b8d720? Напишите их хеши.
+
    user_y@Ubunta:~/Netology.Linux/terraform$ git show b8d720 --pretty=format:"%P"
+
    56cd7859e05c36c06b56d013b55a252d0bb7e158 9ea88f22fc6269854151c571162c5bcf958bee2b
+
    2 родителя
    
 7. Перечислите хеши и комментарии всех коммитов, которые были сделаны между тегами v0.12.23 и v0.12.24.
